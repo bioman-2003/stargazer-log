@@ -1,6 +1,16 @@
 body {
     font-family: sans-serif;
     margin: 2rem;
+    line-height: 1.5;
+}
+
+#status {
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+#status.error {
+    color: #b42318;
 }
 
 ul {
